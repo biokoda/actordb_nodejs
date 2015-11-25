@@ -1,0 +1,33 @@
+{
+  "name": "actordb",
+  "version": "0.10.0",
+  "description": "ActorDB Connector for node.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:biokoda/actordb_nodejs.git"
+  },
+  "keywords": [
+    "actordb",
+    "node",
+    "thrift",
+    "client"
+  ],
+  "dependencies": {
+      "thrift" : "0.9.3",
+      "es6-promise" : "3.0.2"
+  },
+  "devDependencies": {
+      "thrift" : "0.9.3",
+      "es6-promise" : "3.0.2"
+  },
+  "author": "Biokoda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/biokoda/actordb_nodejs/issues"
+  },
+  "scripts": {
+
+  },
+  "homepage": "https://github.com/biokoda/actordb_nodejs"
+}
