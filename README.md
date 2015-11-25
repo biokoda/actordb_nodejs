@@ -40,6 +40,10 @@ adbc_pool.connect().then(function(){
 
 ### Close a pool of connections
 
+```
+adbc_pool.close();
+```
+
 ### Executing SQL statement
 
 ```
@@ -82,7 +86,7 @@ client1.salt().then(function(salt){
 ### Executing a single SQL statement
 
 ```
-client1.exec_single("myuserid123", "user","INSERT INTO contact (contact_id, is_deleted) VALUES ('lolek',0);",[ 'CREATE' ]).then(function(result){
+client1.exec_single("myuserid123", "user","INSERT INTO contact (contact_id, contact_name) VALUES ('2131244','scott');",[ 'CREATE' ]).then(function(result){
   console.log("insert2 query result:");
   console.log(result);
 }).catch(function(err){
